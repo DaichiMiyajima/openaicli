@@ -32,7 +32,7 @@ def main():
         if user_input.lower() == 'exit':
             print("Goodbye!")
             break
-        if user_input.lower() == 'ok':
+        if user_input.lower() == 'ok' or user_input.lower() == 'おk':
             print(user_inputs)
             converse(user_inputs)
         
